@@ -1,10 +1,10 @@
-# Breast Cancer Detection using Machine Learning
+Breast Cancer Detection using Machine Learning
 
 This project involves building and evaluating several machine learning models to predict whether a breast cancer tumor is malignant or benign based on medical data. The primary goal is to apply various classification techniques and analyze their performance using key evaluation metrics.
 
-This project was developed by following a guided learning path from a **Machine Learning playlist on Unstop**.
+This project was developed by following a guided learning path from a playlist on Unstop.
 
-## Topics & Concepts Covered
+Topics & Concepts Covered
 
 This project implements a full machine learning workflow, covering the following key topics:
 
@@ -16,22 +16,20 @@ This project implements a full machine learning workflow, covering the following
 - **CAP Curve & Analysis:** Using a Cumulative Accuracy Profile (CAP) curve to visualize and assess the predictive power of a model.
 - **Model Selection:** Comparing different classification algorithms to select the best-performing one for the given task.
 
-## Models Implemented
+Models Implemented
 
 Three different classification models were trained and compared:
 1. **Logistic Regression**
 2. **K-Nearest Neighbors (KNN)**
 3. **Support Vector Machine (SVM)**
 
-## Results
+Results
 
 After training and evaluation, the **Support Vector Machine (SVM) model** was identified as the most effective, achieving an **accuracy of 97%** on the test set.
 
-The performance of all three models was visualized using confusion matrices:
+The performance of all three models was visualized using confusion matrices.
 
-![Comparison of Confusion Matrices](confusion_matrices_comparison.png)
-
-## Technologies Used
+Technologies Used
 - Python
 - Pandas (for data manipulation)
 - NumPy (for numerical operations)
@@ -39,7 +37,7 @@ The performance of all three models was visualized using confusion matrices:
 - Matplotlib & Seaborn (for data visualization)
 - OpenPyXL (for reading Excel files)
 
-## How to Run This Project
+How to Run This Project
 
 1. **Clone the repository:**
    ```bash
